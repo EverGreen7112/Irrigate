@@ -1,7 +1,7 @@
 package test;
 
 /**
- * AlarmClock
+ * A class for alarm clock - a basic closs that is built with an extra parame
  */
 public class AlarmClock extends Clock {
     public int m_wakeHour;

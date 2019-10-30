@@ -1,17 +1,22 @@
 import test.AlarmClock;
 import test.Clock;
-import test.CookoClock;
+import test.CuckooClock;
 
 /**
- * Test
+ * Our main class, testing classes and methods
  */
 public class Test {
     public static void main(String[] args) {
 
     }
 
-    public void passHour(Clock clock) {
-        for (int i = 0; i < 3600; i++) {
+    /**
+     * Forwards through an hour on an input clock.
+     * @param clock - the clock to fast forward.
+     */
+    public void passHour(Clock clock) {//NOTICE: the paramter is declared clock, but can also be 
+        //passes on to the function as ant class that extends clock (such as Coo
+        for (int i = 0; i < 3600; i++) { //Pass 3600 seconds (=1 hour)
             clock.tick();
         }
     }
