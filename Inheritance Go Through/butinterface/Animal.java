@@ -10,3 +10,4 @@ public interface Animal {
     public void fight();
 
 }
+

@@ -23,3 +23,4 @@ public abstract class Mammal extends Animal {
         System.out.println(m_sound);
     }
 }
+

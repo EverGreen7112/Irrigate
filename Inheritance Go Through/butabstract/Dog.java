@@ -16,7 +16,7 @@ public class Dog extends Mammal {
 
     @Override
     public void feed() {
-        // TODO Auto-generated method stub
+        // TODO
 
     }
 }
