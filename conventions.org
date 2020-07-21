@@ -1,0 +1,42 @@
+#+TITLE: Conventions
+* Directory Structure
+1) The top level should contain a directory matching each lesson laid out in the
+   [[https://docs.google.com/document/d/1oxbW0_FdUBqj7iCCQ3SkRDJpAdKEKkqEaL5eS1OtORY/edit?usp=sharing][summer training array document]]. It should also contain a json file detailing
+   the project's scopes and an org file detailing conventions, as well as its
+   compilation to pdf.
+2) Each such directory is divided into the following documents and directories:
+   + A lyx document detailing the lesson's contents.
+   + A pdf document matching the current version of the lyx document
+   + A directory named "Visuals" containing any pictures used in the documents.
+   + A directory named "Code", containing the code written in class, divided
+     into directorues for each cremember submitting it.
+* Naming conventions
+1) Lesson directory names should simply be an English version of the lesson
+   title as used in its presentation.
+2) The LyX and PDF documents should also have such a name (like the directory
+   that contains them), but with an appended matching extension
+3) The directories inside each lesson's "Code" directory should each be named by
+   the full name of the code sumbmitter
+4) Within each directory layed out above, the  matching project should be, and
+   named the same as the lesson (if it is a script, it may be appended with an
+   apropriate extension)
+5) Pictures within the Visuals directory should be named descriptively and with snake\under{}case.
+
+* Document Structure
+1) Each Document should be titled as written in the matching presentation, in
+   hebrew.
+2) Each document should acontain the matching lesson's date, below the title.
+3) Each document should be divided into top sections that match the lesson's
+   presentation's slide.
+
+* Git Conventions
+1) The [[https://drive.google.com/file/d/17Zy-bLSnusuJYPcsOQuXYaVerAWE_W1l/view?usp=sharing][Git flow model]] should be employed.
+2) The evergreen commit structure, as layed out [[https://drive.google.com/file/d/11MUQs2jLTNWrB0B6rk1kZ3p9ojyaw2cz/view?usp=sharing][here]], should be employed, with
+   the scopes as listed in scopes.json in the top level directory. Within that
+   files, the scope's name should be acheived by concatenating the names of the
+   inner most matching section outward, with an underscore '_'.
+3) Feature branches should be created for each lesson.
+
+* Code Conventions
+1) Code must be in wither python or java
+2) Code must be commented to explain the context within the matching lesson.
