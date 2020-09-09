@@ -8,8 +8,6 @@
 \begin_preamble
 \def\HeblatexEncoding{HE8}
 \def\HeblatexEncodingFile{he8enc}
-\usepackage{culmus}
-\usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
 \usepackage{bm}
 \usepackage{amssymb}

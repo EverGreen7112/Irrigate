@@ -8,7 +8,6 @@
 \begin_preamble
 \def\HeblatexEncoding{HE8}
 \def\HeblatexEncodingFile{he8enc}
-\usepackage[use-david]{culmus}
 \usepackage{amsmath}
 \usepackage{bm}
 \usepackage{amssymb}
@@ -138,36 +137,6 @@ Evergreen #7112
 
 \begin_layout Standard
 נסתכל על הקוד הבא:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename /home/atai/Pictures/Screenshot from 2019-11-04 09-32-12.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename /home/atai/Pictures/Screenshot from 2019-11-04 09-31-44.png
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename /home/atai/Pictures/Screenshot from 2019-11-04 10-02-09.png
-	scale 50
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
