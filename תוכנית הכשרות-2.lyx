@@ -1,0 +1,3564 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\def\HeblatexEncoding{HE8}
+\def\HeblatexEncodingFile{he8enc}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{amssymb}
+\usepackage{chngcntr}
+\counterwithin*{section}{part}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding utf8x
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.54cm
+\topmargin 2.54cm
+\rightmargin 2.54cm
+\bottommargin 2.54cm
+\headheight 1.27cm
+\headsep 1.27cm
+\footskip 1.27cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תוכנית הכשרות - צוות תוכנה
+\end_layout
+
+\begin_layout Section*
+הערות
+\end_layout
+
+\begin_layout Enumerate
+במקום להכין כאן תוכנית הכשרות מסודרת לגמרי )תוך אי-ידיעה של כמות זמן וקצבב
+ למידה(, במקום זה הכנתי 
+\begin_inset Quotes eld
+\end_inset
+
+שיעורים
+\begin_inset Quotes erd
+\end_inset
+
+ - שהם פשוט כל מיני תתי-נושאים שכדאי ללמד ביחד.
+ הם לא יותר משעה במקסימום ויותר קרובים לחצי שעה, אז יש הרבה גמישות.
+ כן תכננתי את ההכשרות עצמן, פחות או יותר - מבחינת הסדר ואיזה שיעורים יהיו
+ בכל אחד, שזה כל מה שנשאר, אני חושב - ושיבצתי אותם כאן[קישור].
+ אפשר לשנות את השיעורים לכל הכשרה ושאר העמודות יתעדכנו אוטומטית.
+ לשיקולכם.
+\end_layout
+
+\begin_layout Enumerate
+התכנון הוא גם ליצור מצגת לכל שיעור.
+ הן ייכתבו לפני כל הכשרה עם ספיירים, פשוט כי זה לוקח המון זמן לעשות אותם
+ ביחד לפני.
+\end_layout
+
+\begin_layout Enumerate
+שוב, קשה מאוד לחזות את המהירות שבה יילמדו את זה.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+עבור כל שיעור, כתבתי טווח זמן משוער, בעיקר ע
+\begin_inset Quotes erd
+\end_inset
+
+פ האינטואיציה שלי.
+ אני לא באמת יכול להבטיח קורלציה למציאות, במיוחד שהתרגולים לא בנויים כ
+\begin_inset Quotes erd
+\end_inset
+
+כ עדיין אז קשה להעריך כמה זמן הם ייקחו.
+\end_layout
+
+\begin_layout Itemize
+שיעורי הבית העיקריים שהם יקבלו זה לעבור על דברים באפליקציה ללימוד תוכנה
+ )
+\lang english
+sololearn
+\lang hebrew
+(.
+ אם הם יחליטו ללמוד מנה כשמשעמם להם )ויכול להיות מאוד שזה יקרה(, זה יכול
+ לשנות מאוד את הקצב שלנו.
+ למרות שגם בדברים שהם ילמדו שם אני רוצה להמיק, זה יאיץ מאוד את ההבנה ויוריד
+ ממני את הצורך ללמד הרבה דברים ואת הסינטקס שלהם -זה יקצר את הזמןו שצריך
+ באופן די דרסטי.
+ אני מניח שנראה.
+\end_layout
+
+\begin_layout Itemize
+חשוב לציין שזוהי תכנית הכשרות שנועדה להעמיק כמה שיותר: פשוט כי אני מרגיש
+ כי זאת הדרך הכי טובה ליצור אנשים שהדברים האלה באים להם בטבעיות, ושמסוגלים
+ ליזום ולעשות יותר עם תוכנה מסתם קוד פשוט לרובוט.
+ למרות זאת, במקרה ויש מחסור בזמן, ניתן להנמיך את כמות הזמן באופן משמעותי
+ )אפשר לקצר את ההכשרה הראשונה לאפילו פחות משעה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- אבל זה עולה בעומק ורוחב, ואלא אם כן יש סיבה של ממש, נראה לי שלא כדאי לשלם
+ את זה.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+המטרה היא גם לעשות סימולציה, וויז'ן ובינה מלאכותית השנה, שכרגע לא אכלול
+ כאן, מפאת העובדה שאין לי דרך לבנות להן הכשרות.
+ זה די בעייתי ולכן כדאי להתחיל לעבוד על הדברים האלה - כדאי שנדע את רמת המורכבות
+ ונדע אותם באופן כללי - כמה שיותר מהר.
+ כנראה כדאי לבקש מגרינבליץ את המצגת שלהם על סימולציות גם לפני שהם ממש עושים
+ את ההכשרה, פשוט כי כרגע הם לא אמרו מתי הם עושים אותה, וגם באופן כללי לדבר
+ עם קבוצות אחרות ולראות אם מישהו ממש יכול לבוא ולהעביר לנו הכשרה על זה -
+ בלי להיות מחויבים ללו
+\begin_inset Quotes erd
+\end_inset
+
+ז של גרינבליץ.
+ כרגע נראה לי שהדרך הכי טובה לעשות את זה היא פשוט שיהיו הכשרות אופציונליות
+ יותר בזמנים שונים.
+ יש גם לציין שהאידיאל הוא תת-צוותים, ולכן יש סיכוי טוב שבכלל נרצה שזו תהיה
+ התוכנית רק לחלק מהאנשים, וחל אחר יילמדו, נניח, פיית'ון ועוד יילמדו סימולציות
+ )כתלות בכמות המצטרפם שנקבל(.
+ השורה התחתונה היא שכדאי להשלים את הפערים בידע שלנו לפחות עד ספטמבר.
+\end_layout
+
+\begin_layout Part
+
+\lang english
+Java
+\end_layout
+
+\begin_layout Section
+הכשרה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1#
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)חומרה, מושגים בסיסיים(
+\end_layout
+
+\begin_layout Subsection
+מהי שפת תכנות? שפת מכונה )בינארית( מול שפת סף )
+\lang english
+Assembly Language
+\lang hebrew
+( ושפה עילית
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+הבנה טובה של מה בעצם קורה פיזית )וגם תוכנתית( מהקוד שנכתב היא די חשובה להבנה
+ שלמה וטובה של תכנותת ובהחלט של תכנות רובוטים.
+ למרות זאת, יש לציין שאני פחות מכיר את הנושא.
+ אם מישהו מאלקטרוניקה / מישהו מקבוצה אחרת יוכל לבוא לעזור עם זה, יהיה מגניב.
+\end_layout
+
+\end_inset
+
+.
+ [
+\numeric on
+30-50
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']
+\end_layout
+
+\begin_layout Enumerate
+מכונת טיורינג - פירוש וכתיבה של מערכת בינארית )אין/יש(.
+\end_layout
+
+\begin_layout Enumerate
+איך המחשב שלנו עובד? מה הוא 
+\begin_inset Quotes eld
+\end_inset
+
+מבין
+\begin_inset Quotes erd
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+איך הקוד שאנחנו כותבים מיתרגם לחשמל?
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $IDEs$
+\end_inset
+
+ -
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Integrated Development Enviornments
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ [
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3/15
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']
+\end_layout
+
+\begin_layout Enumerate
+מהם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph on
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+IDEs‌‌
+\lang hebrew
+?
+\end_layout
+
+\begin_layout Enumerate
+אם אין מספיק מחשבים - <התקנה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+VS Code
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והרחבות של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Java
+\lang hebrew
+> 
+\emph on
+[
+\numeric on
+15
+\numeric off
+ דקות]
+\emph default
+ .
+ )אם יש
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+לפחות להכשרה הראשונה, כדאי מאוד שנהיה בחדר מחשבים / אדריכלות.
+\end_layout
+
+\end_inset
+
+, מצגת עם הוראות התקנה תישלח אחרי השיעור.
+ [
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק'](
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+יש לציין שעדיין לא נתקין את ההרחבות של פירסט, כי בשלב זה אין צורך.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+הדפסה למסך:
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+system.out.prntln
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ [
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10-20
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']
+\end_layout
+
+\begin_layout Enumerate
+יצירת פרוייקט 
+\lang english
+Hello World
+\lang hebrew
+ ב
+\lang english
+VS Code
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והסברת מבנה הקובץ.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+הסברת הפקודה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+system.out.prntln
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+תרגול: פתיחת קובץ ריק וכתיבת קוד שמדפיס ברכת שלום.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+הדגש הוא על העבודה ב
+\lang english
+VS Code
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- פתיחת תיקייה, קובץ שנגמר ב
+\lang english
+.java
+\lang hebrew
+, וקיצורי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+class
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+main
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+sysout
+\lang hebrew
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+יצירת פרוייקט של ממש בניגוד לקובץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Java
+\lang hebrew
+יחיד - הפרוייקט גם מזהה שגיאות.
+\end_layout
+
+\begin_layout Subsection
+קלט -
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+system.console().readline()
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ וסוגי קונסולות [
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+12-17
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ דק']
+\end_layout
+
+\begin_layout Enumerate
+פקודת 
+\series bold
+\lang english
+system.console().readLine()
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Enumerate
+הרכבת ממחרוזות עם פלוס.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+-
+\lang english
+NullPointerException
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- למה קיבלנו אותה: קונסולת דיבאגינג מול טרמינל.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+תיקון ב
+\lang english
+launch.json
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+העברת מידע בין שורות הקוד דרך משתנה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+String
+\end_layout
+
+\begin_layout Subsection
+סוגי נתונים [
+\numeric on
+5-7
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']
+\end_layout
+
+\begin_layout Enumerate
+מספר, מילה ואמיתה, וההבדלים ביניהם.
+\end_layout
+
+\begin_layout Subsection
+מספר חלק
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- מספר ממשי [
+\numeric on
+10-15
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']:
+\end_layout
+
+\begin_layout Enumerate
+מתי נרצה להשתמש במספר?
+\end_layout
+
+\begin_layout Enumerate
+-
+\lang english
+Float
+\lang hebrew
+ ו 
+\lang english
+Double
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- הבדלים ושימוש.
+\end_layout
+
+\begin_layout Enumerate
+המרת מחרוזת לממשי.
+\end_layout
+
+\begin_layout Enumerate
+אופרטורים בסיסיים: חיבור, חיסור, כפל וחילוק, + תרגול קצרצר
+\end_layout
+
+\begin_layout Enumerate
+אופרטורים מתקדמים: ספריית 
+\lang english
+Math
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ופונקציות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+pow
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+max
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+min
+\lang hebrew
+, וטריגו.
+\end_layout
+
+\begin_layout Enumerate
+מילת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+final
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Subsection
+בדיקת שוויון -
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+switch case
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ [
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+25-40
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק'
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+]
+\end_layout
+
+\begin_layout Enumerate
+מתי נשתמש בזה?
+\end_layout
+
+\begin_layout Enumerate
+סינטקס.
+\end_layout
+
+\begin_layout Enumerate
+תרגול - מחשבון
+\end_layout
+
+\begin_layout Subsection
+מספר חלק
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- שלמים [
+\numeric on
+20-40
+\numeric off
+]:
+\end_layout
+
+\begin_layout Enumerate
+מתי משתמשים: ספירה מול ספקטרום.
+\end_layout
+
+\begin_layout Enumerate
+.
+\lang english
+b‌‌yte
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+short
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+int
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+long
+\lang hebrew
+, ההבדלים ביניהם ומתי משתמשים בכל אחד.
+\end_layout
+
+\begin_layout Enumerate
+המרת מחרוזת לשלם.
+\end_layout
+
+\begin_layout Enumerate
+פונקציית רצפה )
+\lang english
+floor division
+\lang hebrew
+( ומודולו )שארית(: מה זה, איך משתמשים בזה ומתי משתמשים בזה.
+\end_layout
+
+\begin_layout Enumerate
+המרת שלם לממשי ולהפך.
+\end_layout
+
+\begin_layout Enumerate
+אופראטור ++
+\end_layout
+
+\begin_layout Enumerate
+תרגול
+\end_layout
+
+\begin_layout Section
+הכשרה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2#
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ )מושגים בסיסיים, סדרות ולולאות 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+(
+\end_layout
+
+\begin_layout Subsection
+מילים: תו ומחרוזת [
+\numeric on
+7-12
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']
+\end_layout
+
+\begin_layout Enumerate
+תו: כיצד הוא מאוחסן, המרה ל
+\lang english
+ASCII
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ולהפך, פונקציות
+\end_layout
+
+\begin_layout Enumerate
+מחרוזת: מהי, איך יוצרים אותה.
+ חיבור מחרוזות.
+\end_layout
+
+\begin_layout Subsection
+אמיתות )
+\lang english
+booleans
+\lang hebrew
+( [
+\numeric on
+30-50
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']
+\end_layout
+
+\begin_layout Enumerate
+מהו בוליאן? מה הוא מייצג? אילו ערכים הוא יכול להכיל?
+\end_layout
+
+\begin_layout Enumerate
+מה השימוש? אופרטורים בסיסיים )==, >, <(, פקודות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+if
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+else
+\lang hebrew
+, תרגול קצר )גילאים(
+\end_layout
+
+\begin_layout Enumerate
+אופרטורים מתקדמים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)&& )
+\lang english
+and
+\lang hebrew
+(, || )
+\lang english
+or
+\lang hebrew
+( (
+\end_layout
+
+\begin_layout Enumerate
+פקודת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+.else if
+\end_layout
+
+\begin_layout Enumerate
+תרגול )אלרגיות, טווחים(.
+\end_layout
+
+\begin_layout Subsection
+לולאות [
+\numeric on
+30-50
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']
+\end_layout
+
+\begin_layout Enumerate
+לולאות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+while
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ ו
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+do while
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+while
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אינסופית, תרגול )ל
+\lang english
+do while
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- משתמש צריך לתת מספר חיובי.
+ לשאר אפשר לקחת דוגמאות מהספר.(
+\end_layout
+
+\begin_layout Enumerate
+לולאת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+for
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
++ תרגול )סכום, ממוצע, סדרה, עוד מהספר(.
+\end_layout
+
+\begin_layout Section
+הכשרה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+# )סדרות ולולאות
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+(
+\end_layout
+
+\begin_layout Subsection
+מערכים [
+\numeric on
+30-50
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דק']
+\end_layout
+
+\begin_layout Enumerate
+מהם מערכים? מתי נשתמש? דוגמא + סינטקס בסיסי )
+\lang english
+type[] name = {value, value..
+ value}
+\lang hebrew
+(.
+\end_layout
+
+\begin_layout Enumerate
+סינטקס מתקדם - הכרזה ללא ערכים, השמת ערכים לפי מיקום, השבת ערכים לפי מיקום,
+ קבלת מיקום לפי ערך.
+ תרגול קצרצר תוך כדי.
+\end_layout
+
+\begin_layout Enumerate
+איטראציה -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+for
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+foreach
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)נכלל גם תכונת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+length
+\lang hebrew
+(, סיכום )דוגמא(.
+\end_layout
+
+\begin_layout Enumerate
+מחרוזות כמערכים.
+\end_layout
+
+\begin_layout Enumerate
+תרגול.
+\end_layout
+
+\begin_layout Enumerate
+מערכים דו-מימדיים: מתי נשתמש )מיני-מחלקות(, סינטקס.
+\end_layout
+
+\begin_layout Section
+הכשרה 
+\numeric on
+4#
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ )תכנות מונחה עצמים 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, אלגוריתמיקה(
+\end_layout
+
+\begin_layout Subsection
+מתודות ואלגוריתמיקה
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+יש לציין שהשיעור לא ספציפי לג'אבה, וחשוב מאוד לתכנות ככלל.
+ בנוסף, אעדיף מאוד שלמרות שהוא מאוד ארוך, הוא כן ילומד בהכשרה אחת.
+ אם לא, אעדיף לפחות לא ללמד דברים אחרים באותה הכשרה.
+\end_layout
+
+\end_inset
+
+ [
+\numeric on
+2-3
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שע']
+\end_layout
+
+\begin_layout Enumerate
+מהי אלגוריתמיקה? למה אנחנו צריכים אותה? אבסטרקציה של פעולות לחזרות של פעולות
+ בסיס.
+ ככל שנכיר יותר את השפה ונתרגל יותר, כך יהיה לנו יותר קל לעשות אלוריטמיזציה
+ מתאימה.
+ עצה לאלגוריטמיזציה: לנסח במילים הכי פשוטות שאפשר.
+\end_layout
+
+\begin_layout Enumerate
+עם דוגמאות והסברים ממשחק הזיכרון [קישור] )לכל אחד: סינטקס, כיצד הם עוזרים
+ באלגוריטמיזציה(:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+מתודות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+void
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ללא פרמטרים
+\end_layout
+
+\begin_layout Enumerate
+מתודות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+void
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עם פרמטרים
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+להסביר על שינוי פרמטרים בפונקציה: פרמטרים מועברים כערכים ולא כמצביעים )יש
+ דרךת אבך נדבר עליה בפעם אחרת(
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+החזרה: מתודות מחזירות פרימיטיבים / מחרוזות.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+פרמטרי ברירת מחדל
+\end_layout
+
+\begin_layout Enumerate
+העמסת יתר בדוגמת דרייבטרייין: מהירות שווה ומהירות לכל מנוע.
+\end_layout
+
+\begin_layout Enumerate
+עוד על אלגוריתמיזציה
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+החשיבות בלהבין מה הפונקציות שבהן אנחנו משתמשים עושות.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+תרגול:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+לכתוב פונקציית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+and
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שלוקחת מערך ומחזירה בוליאן לפי אופרטור && )בלי להשתמש בו(
+\end_layout
+
+\begin_layout Enumerate
+לכתוב פונקציית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+or
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שלוקחת מערך ומחזירה בוליאן לפי אופרטור || )בלי להשתמש בו(
+\end_layout
+
+\begin_layout Enumerate
+לכתוב פונקציית הכפלה שלוקחת שני מספרים ממשיים ומחזירה את המכפלה הממשית שלהם
+ )בלי להשתמש ב*(
+\end_layout
+
+\begin_layout Enumerate
+לכתוב פונקציית חילוק שלוקחת שני מספרים ממשיים ומחזירה את המנה שלהם )בלי
+ להשתמש ב /(
+\end_layout
+
+\begin_layout Enumerate
+לכתוב פונקציית מודולו שלוקחת מסםר ממשי ומספר שלם ומחזירה את השארית )בלי
+ להשתמש ב%(
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+ריקרציה
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+הסבר וסינטקס
+\end_layout
+
+\begin_layout Enumerate
+באלגוריתמיקה: נוסחה ריקרסיבית מול נוסחה מפורשת )לפי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+f(n-1)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ מול לפי 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+n
+\lang hebrew
+, דוגמאות + חזקות של שתיים, עצרת.
+\end_layout
+
+\begin_layout Enumerate
+חסרונות: קשה להבין, הרבה פעמים פחות איטי.
+ לדוגמא,.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+תרגול אלגוריתמיקה נוסף כללי
+\end_layout
+
+\begin_layout Section
+הכשרה 
+\numeric on
+5#
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ )תכנות מונחה עצמים 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+(
+\end_layout
+
+\begin_layout Subsection
+מבוא לתכנות מונחה עצמים [
+\lang english
+1:15-1:45
+\lang hebrew
+ שע']
+\end_layout
+
+\begin_layout Enumerate
+מהו תכנות מונחה עצמים? למה צריך אותו?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+קשר לרובוטיקה.
+\end_layout
+
+\begin_layout Itemize
+עצמים כסט של תכונות
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+סינטקס בסיסי )בלוק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+class
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+import
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ויצירת אובייקט, אופרטור נקודה(, עצמים כסוג נתונים.
+\end_layout
+
+\begin_layout Enumerate
+תרגול קצר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)יצירת מחלקות בסיסיות לשלושה אובייקטים בחדר(
+\end_layout
+
+\begin_layout Enumerate
+מתודות עם אובייקטים:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+מתודות של מחלקות - הסבר, תרגול קצרצר - הוספה לקוד מהתרגול הקודם
+\end_layout
+
+\begin_layout Itemize
+אובייקטים כפרמטרים: הסבר, סינטקס.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+אובייקטים מועברים כמצביע ולא כערך.
+ העברה של פרימיטיבים כמצביעים באצעות מחלקות, דוגמא, תרגול קצר.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+תכנות מונחה עצמים מתקדם [
+\lang english
+1:00-1:30
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שע']
+\end_layout
+
+\begin_layout Enumerate
+אובייקט סופי )
+\lang english
+final
+\lang hebrew
+( - שינוי תכונות מול השמה.
+\end_layout
+
+\begin_layout Enumerate
+הרשאות גישה:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+public
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+private
+\lang hebrew
+: למה צריך? )סדר, הגנה(, חוסר מילת הרשאה )רק בחבילה(.
+\end_layout
+
+\begin_layout Enumerate
+מתודות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+get
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+set
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+לבדיקה או שינוי של קלט / פלט
+\end_layout
+
+\begin_layout Itemize
+ליישום יותר קל של שינויים )גם אם אין צורך בהגנה, בדיקה או שינוי(
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+פעולות בונות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)
+\lang english
+constructors
+\lang hebrew
+(
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+קונסטרקטורים ללא פרמטרים
+\end_layout
+
+\begin_layout Itemize
+קונסטרקטורים עם פרמטרים: השמת תכונות.
+\end_layout
+
+\begin_layout Itemize
+העמסת קונסטרקטורים.
+\end_layout
+
+\begin_layout Itemize
+תרגול.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+משתנים סופיים ומחלקות / משתנים / שיטות סטטיות + תרגול
+\end_layout
+
+\begin_layout Enumerate
+מחלקות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+enum
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ - הסבר, סינטקס, דוגמא מהקוד של 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2019
+\end_layout
+
+\begin_layout Section
+הכשרה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6#
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- תכנות מונחה עצמים
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection
+תורשה
+\end_layout
+
+\begin_layout Enumerate
+מה זה תורשה? למה צריך את זה? סינטקס והסבר בסיסי )נוח יותר(
+\end_layout
+
+\end_body
+\end_document
