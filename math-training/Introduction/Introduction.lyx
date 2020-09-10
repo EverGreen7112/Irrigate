@@ -1,0 +1,843 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\def\HeblatexEncoding{HE8}
+\def\HeblatexEncodingFile{he8enc}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+הכשרות מתמטיקה וצוות תוכנה - מבוא
+\end_layout
+
+\begin_layout Date
+יום ראשון, העשרים ושניים ביולי,
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2020
+\end_layout
+
+\begin_layout Author
+עתי אמבוס
+\end_layout
+
+\begin_layout Section
+חזרה קצרה: מה התפקיד של צוות תוכנה?
+\end_layout
+
+\begin_layout Subsection
+בעונה
+\end_layout
+
+\begin_layout Subsubsection
+בניית המודל הדיגיטלי של הרובוט
+\end_layout
+
+\begin_layout Itemize
+מיפוי החיבורים, המנועים והחיישנים של הרובוט כך שיווצר אובייקט יחיד קונקרטי
+ של הרובוט, שמחולק למערכות השונות ומסוגל לעשות פעולות ברורות.
+ 
+\end_layout
+
+\begin_layout Itemize
+החלק העיקרי של הקוד שלנו הוא לא כתיבת הפעולות עצמן אלא הגדרת המערכות השונות
+ שאנחנו משתמשים בהם ומה שאנחנו רוצים לעשות איתם; אנחנו מגדירים אובייקטים
+ של מנועים וחיישנים ומגדירים בעזרתם אובייקט גדול יותר של מערכת, שמקבלת גם
+ פעולות של תנועה ובקרה, וביחד עם המערכות האחרות מגדירה תוך האובייקט הגדול
+ אף יותר של הרובוט.
+ 
+\end_layout
+
+\begin_layout Itemize
+המטרה היא בעצם ליצור שפה משותפת עם המחשב, כך שבמקום שנצטרך להגיד, תשלח חשמל
+ לפורט
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+PWM-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כל עוד פורט
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+DIO-1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקבל חשמל מהחיישן, נוכל להגיד 
+\begin_inset Quotes eld
+\end_inset
+
+תיסע שלושה מטרים קדימה
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+בניית המודל לעיבוד מידע שאנחו מקבלים בשטח
+\end_layout
+
+\begin_layout Standard
+אנחנו מקבלים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+25
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וולט מהחיישן האנאלוגי בפורט
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+; האנקודר ספר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+452
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+סיבובים.
+ המצלמה מצאה פיקסלים בערכים של 139, 63, 196, 66, 37, 68, 42, 191, 255, 106,
+ 1, 48, 26, 246, 255, 226, 190, 112, 195, 41, 174, 178, 80, 207, 217, 26,
+ 138
+\begin_inset Formula $\dots$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+כמה כוח לתת למנועים כדי שהרובוט יסתובב אל המטרה? איך נפעיל את המערכות ככה
+ שהרובוט יתפוס את הקובייה? איך נוכל לזרוק את הכדור כך שהוא יפגע בדיוק בנקודה
+ שאנחנו רוצים?
+\end_layout
+
+\begin_layout Standard
+חלק גדול מהעבודה שלנו הוא לקחת את המידע שהחיישנים של הרובוט נותנים לנו יחד
+ עם מידע ידוע מראש, כמו גודל של חלקי משחק או מידות של הרובוט, ולהפיק ממנו
+ את הפלט שאנחנו צריכים לתת עבור הקלט שאנחנו רוצים.
+\end_layout
+
+\begin_layout Subsubsection
+בניית הפעולות )ועצי הפעולות( של הרובוט בזמן המקצים
+\end_layout
+
+\begin_layout Standard
+אחרי שבנינו מודל של הרובוט ומצאנו מה אנחנו צריכים לעשות כדי שמה שאנחנו רוצים
+ יקרה, צריך להגיד לרובוט לעשות את זה.
+ ואולי אנחנו רוצים שהרובוט יבחר בעצמו לפי מה שמצאנו בעיבוד המידע )אולי אי
+ אפשר לזרוק את הכדור למטרה מהנקודה שבה אנחנו נמצאי, וצריך לעשות משהו אחר(.
+\end_layout
+
+\begin_layout Subsubsection
+חיבור הרובוט לשלטים
+\end_layout
+
+\begin_layout Standard
+כדי שלנהגים יהיה מה לעשות :(.
+\end_layout
+
+\begin_layout Subsection
+מחוץ לעונה
+\end_layout
+
+\begin_layout Itemize
+אתר
+\end_layout
+
+\begin_layout Itemize
+אפליקציה
+\end_layout
+
+\begin_layout Itemize
+שליחה אוטומטית של מיילים?
+\end_layout
+
+\begin_layout Itemize
+הדימין הוא הגבול.
+\end_layout
+
+\begin_layout Section
+איך מתמטיקה עוזרת?
+\end_layout
+
+\begin_layout Subsection
+בניית מודל של המציאות
+\end_layout
+
+\begin_layout Standard
+התמטיקה עוזרת בעיקר בנקודה השנייה - עיבוד המידע בשטח.
+ בחלקו בגלל שהיא נותנת לנו גישה למודל של המציאות בצורת פיזיקה - כך שהיא
+ מאפשרת לנו, לדומא, לתרגם את הקוד שלנו למהירות זריקה ואת מהירות הזריקה למסלול
+ של הכדור, כך שנוכל למצוא כמה מהיר צריך לזרוק אותו כדי שהוא ינחת איפה שאנחנו
+ רוצים.
+ דרך חוקים פיזיקליים, אנחנו יכולים להשתמש במבנים מתמטיים כדי לחזות ולשלוט
+ בתנועה של הרובוט והסביבה שלו, דבר שהוא בעצם המטרה העיקרית של המשחק.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Visuals/ball_throw.gif
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color gray
+המסלול של כדור שנזרק באוויר, ביחד עם המהירות שלו בכל רגע.
+ פיזיקה!
+\end_layout
+
+\begin_layout Subsection
+שליטה במערכות
+\end_layout
+
+\begin_layout Standard
+עוד, המתמטיקה גם עוזרת לנו גם בצורה מופשטת יותר; היא נותנת לנו את האפשרות
+ להגדיר, להבין ולשלוט במערכות שבהן אנחנו משתמשים בצורה הרבה יותר מדויקת.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Visuals/pid_loop.png
+	lyxscale 17
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color gray
+מודל בקרה שנקרא 
+\lang english
+PID
+\lang hebrew
+, שמשתמש במבנים מתמטיים כדי לייצב ערך משתנה
+\begin_inset Newline newline
+\end_inset
+
+ על נקודת מטרה בהתאם ליכולת השליטה שלנו
+\end_layout
+
+\begin_layout Subsection
+אלגוריתמיקה
+\end_layout
+
+\begin_layout Standard
+הכישורים שדרושים למתמטיקה גבוהה, בבחינת העיסוק במבנים לוגיים והתרגום של
+ המציאות אליהם, נוגע הרבה בעבודה שלנו כמתכנתים; למידת מתמטיקה יכולה להביא
+ לתובנות לגבי הקוד שלכם ולאמן את פתרון הבעיות שלכם, ואת היכולת לתרגם את
+ מה שאתם רוצים לעשות לתוך קוד.
+ 
+\end_layout
+
+\begin_layout Standard
+בנוסף, היכולת להצמיד מספרים לדברים היא יכולת חזקה מאוד שמאפשרת לנו לבצע
+ חישובים ושיקולים אובייקטיבים; הבנה טובה של מתמטיקה מאפשרת לנו למצוא נוסחה
+ מתאימה ולקבץ ולתרגם דברים מופשטים לתוך רעיון קונקרטי ושימושי; מהביצועים
+ של רובוט על המגרש עד ההתרשמויות של מגויסים חדשים.
+ בצורה הכי מלהיבה אולי, זהו הרעיון הבסיסי מאחורי למידת מכונה.
+\end_layout
+
+\begin_layout Subsection
+זה כיף!
+\end_layout
+
+\begin_layout Section
+תוכנית הלימודים של
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Evergreen, #7112
+\end_layout
+
+\begin_layout Subsection
+לא כמו בית הספר, ולא מחליף את בית הספר.
+\end_layout
+
+\begin_layout Standard
+בית הספר עוסק בעיקר בתרגול חוזר של הנושאים, עד שאתם מכירים מספיק תבניות
+ ספציפיות ואת הפתרון הספציפי להן כדי לדעת לפתור את השאלות בבגרות; ובלי להכרח
+ להבין מה אתם עושים.
+ עכשיו, היכולת לפתור בעיות ספציפיות בקלות יחסית בלי לדאוג מה הן בדיוק היא
+ יכולת חשובה מאוד שכנראה תעזור לכם ברוב המקומות שבהם תשתמשו במתמטיקה.
+ אבל זה לא מה שאנחנו מחפשים כאן.
+\end_layout
+
+\begin_layout Standard
+המטרה של תשע ההכשרות הבאות )לערך( היא לנטוע בכם 
+\emph on
+הבנה
+\emph default
+ של הרעיונות המרכזיים של חדו
+\begin_inset Quotes erd
+\end_inset
+
+א, אלגברה ליניארית, וכמה דברים אחרים.
+ אנחנו נבנה ביחד את הכלים להתמודד עם שאלות בנושאים האלה, נבין איפה אנחנו
+ יכולים להשתמש בהם ונלמד את הגישות שאפשר לקחת כשנתקלים בהם ככה פתאום.
+ לפעמים יינתנו שיעורי בית, אבל מעטים ובעיקר מוכווני הבנה.
+\end_layout
+
+\begin_layout Standard
+מבחינת הרמה - אנחנו נעבור על הרבה נושאים שנלמדים במהלך התיכון, וגם על הרבה
+ שלא.
+ בכל מקרה - אל תצפו לפתור בקלות מבחני בגרות במתמטיקה ופיזיקה.
+ אולי, אבל לא בהכרח; זה לא מה שאנחנו לומדים כאן.
+\end_layout
+
+\begin_layout Subsection
+בראי המציאות ובראי התכנות
+\end_layout
+
+\begin_layout Standard
+על הרבה מהנושאים שנעסוק בהם אפשר להסתכל 
+\end_layout
+
+\begin_layout Standard
+להרבה מהנושאים שנלמד יש שימושים נרחבים בפיזיקה, ומן הסתם אנחנו משתמשים בהם
+ כדי לייצג דברים במציאות.
+ הלמידה היא בדגש על זה - מבחינת הדוגמאות שניתן כדי להמחיש את הנושאים ומבחינת
+ הדרך שבה ניגש אליהם.
+ בצורה הזו, אנחנו גם נעסוק בהרבה מהפיזיקה שנתמש בה אחר כך עם הרובוט.
+\end_layout
+
+\begin_layout Standard
+במידה דומה, נעסוק גם במקבילים של הרעיונות בתכנות ובבקרה, וכיצד אנחנו יכולים
+ להשתמש בהם.
+\end_layout
+
+\begin_layout Standard
+אם ישבתם מתישהו במתמטיקה והרגשתם שאין מצב שזה שימושי או קשור באיזושהי צורה
+ למציאות, אז אחת המטרות שלי כאן היא שלעולם לא תצליחו לשכוח מהקשר.
+\end_layout
+
+\begin_layout Subsection
+עם שימוש בתכנות
+\end_layout
+
+\begin_layout Standard
+כדי שנבין מה אנחנו עושים, כדי שלא נצטרך לחשב דברים ידנית, כדי שנראה שמה
+ שאנחנו אומרים באמת עובד ועוד ועוד ועוד - במהלך כל ההכשרות נשתמש בתכנות
+ כדי להמחיש ולהראות את הנושאים שנלמד, ולראות שאני לא מחרטט 
+\emph on
+יותר מידי
+\emph default
+.
+ יותר מזה - אני אבקש מכם לכתוב חלק מהקוד הזה בעצמיכם.
+ אישית אני אשתמש בפיית'ון במהלך השיעורים, אבל לכם מותר גם ג'אווה :(.
+ בכל מקרה, מי שבבעלותו מחשב נייד, בבקשה להביא!
+\end_layout
+
+\begin_layout Section
+מה שאנחנו רוצים מכם:
+\end_layout
+
+\begin_layout Subsection
+להקשיב.
+\end_layout
+
+\begin_layout Subsection
+להודיע על כל היעדרות מראש, ולהתעדכן כשצריך:
+\end_layout
+
+\begin_layout Standard
+אם אתם מחליטים שלא להגיע מכל סיבה שהיא, מהכרח או מרצון, אנא עדכנו את עתי
+ או את תום.
+ אין חובה להגיד למה )למרות שאתם מוזמנים, ולא נשפוט(, אבל הנקודה המרכזית
+ היא שכחלק מהשתתפותכם בפרוייקט אנחנו צריכים להיות מסוגלים לסמוך על זה שתגיעו,
+ ובאופן כללי לדעת אם צריך להזיז או לבטל פגישה.
+\end_layout
+
+\begin_layout Standard
+בנוסף, הרבה מהחומר בונה אחד על השני, ולכן נבקש שתשלימו את השיעורים שאתם
+ מפספסים )ולעזרה, אתם יכולים לראות את החלק הבא של המסמך הזה(
+\end_layout
+
+\begin_layout Subsection
+לתת לנו משוב
+\end_layout
+
+\begin_layout Standard
+לצערנו הרב מאוד, אנחנו לא מושלמים.
+ אבל אנחנו מנסים.
+\end_layout
+
+\begin_layout Standard
+אז אם יש לכם ביקורת, בקשה או הצעה, אם לא אהבתם את הדרך שבה העברנו הרצאה
+ או שיש לכם בעיה עם כל חלק אחר של הקבוצה או הצוות שלנו, נשמח אם תדברו איתנו
+ - אפשר פנים אל פנים, דרך הוואטסאפ, ואם אתם מעדיפים, או רוצים בצורה אנונימית,
+ גם דרך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Google Forms
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)ראו בקישור 
+\lang english
+https://bit.ly/32vujqh
+\lang hebrew
+(.
+\end_layout
+
+\begin_layout Subsection
+לא לפחד אם אתם לא מבינים ישר.
+\end_layout
+
+\begin_layout Standard
+צוות תוכנה נוטה למשוך הרבה תלמידים מאוד חכמים.
+ זה לא שבצוותים האחרים חסר, אבל בצוות תוכנה במיוחד נוטה להתאסף קבוצת אנשים
+ שרגילים להבין הכל מאוד מהר.
+ אבל אנחנו לא עומדים ללמוד במהירות או ברמה שאתם רגילים אליה.
+ סביר מאוד - גם במתמטיקה וגם בתכנות - שתיתקלו במשהו שלא תצליחו להבין בכלל.
+ עכשיו, להרבה אנשים שרגילים להבין הכל מהר, לא להצליח להבין משהו, גם אחרי
+ שהסבירו אותו, זה לא כיף.
+ ולהרבה מהאנשים האלה יש נטייה פשוט כאילו להתעלם מהעובדה שהם לא הבינו, להתנהג
+ כאילו הם כן ולהמשיך עד שהם אשכרה צריכים להשתמש בידע הזה, ואז להיתקע קצת.
+ לא בטוח שתהיה לכם הבעיה הזו, אבל אם כן, בבקשה תבינו שזה קרה ויקרה לכל מי
+ שעובר את ההכשרות האלה; אלה נושאים מסובכים ואף אחד לא הבין את הכל בפעם הראשונה.
+ ואנחנו לא יכולים להרשות שיהיו לנו חברי צוות שלא נוכל לסמוך עליהם לבצע את
+ מה שאנחנו מבקשים - אז בבקשה מכם, 
+\series bold
+אם אתם לא מבינים משהו, אל תפחדו לשאול.
+\end_layout
+
+\begin_layout Section
+חומרי לימוד
+\end_layout
+
+\begin_layout Enumerate
+כל קוד שנכתוב בשיעור יהיה זמין לכולם בארגון הגיטהאב של הקבוצה.
+ אבקש גם שתעלו את הקוד שאתם כותבים לשם )ומי שלא יודע איך, שיבקש ונשמח להסביר(
+\end_layout
+
+\begin_layout Enumerate
+סיכומים של כל שיעור )כדוגמת המסמך הזה( יהיו בדרייב של הקבוצה תחת התיקייה
+ 
+\begin_inset Quotes eld
+\end_inset
+
+חומרי לימוד
+\begin_inset Quotes erd
+\end_inset
+
+ וגם באחסון שצוין לעיל, וגם יישלחו בוואטסאפ.
+\end_layout
+
+\begin_layout Enumerate
+בסיום כל נושא, נשתדל להוסיף גם מסמף 
+\begin_inset Quotes eld
+\end_inset
+
+שליפים
+\begin_inset Quotes erd
+\end_inset
+
+ )
+\lang english
+CheetSheet
+\lang hebrew
+( שיוכל לשמש לכם כמקום למבט מהיר אם אתם שוכחים איך עושים משהו, או מה משהו
+ אומר.
+ גם אלו יהיו בדרייב של הקבוצה ויישלחו בוואטסאפ.
+\end_layout
+
+\end_body
+\end_document
